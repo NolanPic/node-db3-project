@@ -11,7 +11,7 @@ module.exports = {
 };
 
 function find() {
-
+    return db('schemes').select('*');
 }
 
 function findById(id) {
